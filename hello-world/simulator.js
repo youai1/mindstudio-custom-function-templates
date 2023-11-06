@@ -2,4 +2,4 @@ environment = {
   configVariables: {
     outputVar: "myVariable",
   },
-};
+}
