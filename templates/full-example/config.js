@@ -16,6 +16,11 @@ config = {
           variable: 'textOutputVar',
           type: 'text',
         },
+        {
+          label: 'Data Source',
+          variable: 'dataSourceId',
+          type: 'dataSource',
+        },
       ],
     },
   ],

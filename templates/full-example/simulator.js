@@ -1,7 +1,8 @@
 environment = {
   config: {
     temperatureOutputVar: "temp",
-    textOutputVar: "textOutput"
+    textOutputVar: "textOutput",
+    dataSourceId: ""
   },
   vars: {
     myVariable: 'Existing Value',

@@ -20,4 +20,12 @@ const snippet = textResult.split(' ').slice(0, 100).join(' ');
 ai.vars[ai.config.textOutputVar] = snippet;
 
 // Query a data source (replace with IDs from variables)
-// await ai.queryDataSource(dataSourceId, query, numResults)
+if (ai.config.dataSourceId) {
+  const dataSourceResult = await ai.queryDataSource(
+    ai.config.dataSourceId,
+    "query text",
+    numResults,
+  );
+
+  console.log(dataSourceResult);
+}
