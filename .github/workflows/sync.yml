@@ -1,0 +1,15 @@
+name: 'Sync with MindStudio'
+
+on:
+  workflow_call:
+    secrets:
+      HOOK_URL:
+        required: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Make POST request to sync functions
+        run: |
+          curl -X POST -H "Content-Type: application/json" -d '{}' ${{ secrets.HOOK_URL }}
