@@ -1,6 +1,7 @@
 config = {
   name: "Hello World",
   description: "A sample custom functions",
+  author: 'sean t',
   configurationSections: [
     {
       title: "Configuration",
