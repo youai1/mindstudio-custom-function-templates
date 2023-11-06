@@ -1,6 +1,12 @@
 name: 'Sync with MindStudio'
 
 on:
+  push:
+    branches:
+      - main
+    secrets:
+      HOOK_URL:
+        required: true
   workflow_call:
     secrets:
       HOOK_URL:
