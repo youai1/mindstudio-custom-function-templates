@@ -1,0 +1,1 @@
+ai.vars[ai.config.outputVar] = 'Hello World!';
