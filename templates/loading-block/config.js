@@ -12,7 +12,7 @@ config = {
           label: 'Message',
           type: 'text',
           variable: 'message',
-          helpText: 'This message will be displayed to the user while the app is loading.',
+          helpText: 'This message will be displayed to the user while the next automation block is processing.',
         },
       ],
     },
