@@ -7,7 +7,7 @@ on:
     secrets:
       HOOK_URL:
         required: true
-  workflow_call:
+  workflow_dispatch:
     secrets:
       HOOK_URL:
         required: true
