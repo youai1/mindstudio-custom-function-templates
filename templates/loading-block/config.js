@@ -1,4 +1,7 @@
 config = {
+  name: "Loading Message Block",
+  description: "Display a custom loading message.",
+  author: 'Marko',
   blockStyle: {
     backgroundColor: '#111111',
     foregroundColor: 'white',
