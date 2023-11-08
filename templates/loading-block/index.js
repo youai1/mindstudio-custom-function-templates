@@ -1,0 +1,1 @@
+ai.log(ai.config.message);
