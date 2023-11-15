@@ -4,4 +4,4 @@ environment = {
     input: "{{input}}",
   },
   vars: {},
-};
+}
