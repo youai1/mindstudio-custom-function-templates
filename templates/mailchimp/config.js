@@ -26,7 +26,7 @@ config = {
         {
           label: 'Data Center',
           variable: 'data_center',
-          helpText: "Your API endpoint's URL depends on the data center associated with your account. For example, if your API key is 1234567890-us1, your data center is us1.",
+          helpText: "Your API endpoint URL depends on the data center associated with your account. For example, if your API key is 1234567890-us1, your data center is us1.",
           type: 'text',
         },
         {
