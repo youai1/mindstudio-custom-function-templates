@@ -1,7 +1,7 @@
 config = {
   name: "Airtable Integration",
   description: "Script to create a new record in an Airtable base",
-  author: 'Your Name or Your Company',
+  author: 'Kevin L.',
   configurationSections: [
     {
       title: 'Configuration',
