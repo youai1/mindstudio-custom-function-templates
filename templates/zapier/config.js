@@ -3,9 +3,8 @@ config = {
   description: "Send data to a Zapier webhook.",
   author: "Marko",
   blockStyle: {
-    backgroundImageUrl:
-      "https://youai-cdn.s3.us-west-2.amazonaws.com/images/536a1924-ae79-4522-9d3a-1ff6c49cd22f_1700083749469.jpg",
-    foregroundColor: "transparent",
+    backgroundImageUrl: 'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1700267311272.jpg',
+    foregroundColor: "#FF5102",
     label: ".",
   },
   configurationSections: [
