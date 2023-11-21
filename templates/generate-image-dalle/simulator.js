@@ -5,4 +5,4 @@ environment = {
     model: "",
   },
   vars: {},
-};
+}
