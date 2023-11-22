@@ -3,9 +3,9 @@ config = {
   description: "Perform a GET request to the provided url",
   author: "Marko",
   blockStyle: {
-    backgroundImageUrl: 'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1700605173597.jpg',
+    backgroundColor: '#007aff',
     foregroundColor: '#ffffff',
-    label: ' ',
+    label: 'GET Request',
   },
   configurationSections: [
     {
