@@ -1,5 +1,5 @@
 config = {
-  name: "Mailchimp",
+  name: "Mailchimp - Collect Emails",
   description: "Collect emails for your Mailchimp mailing list.",
   author: "Marko",
   blockStyle: {
