@@ -1,5 +1,5 @@
 config = {
-  name: "Mailchimp",
+  name: "Mailchimp - Collect Emails",
   description: "Collect emails for your Mailchimp mailing list.",
   author: "Marko",
   blockStyle: {
@@ -35,7 +35,7 @@ config = {
           label: "Input",
           variable: "input",
           type: "text",
-          helpText: "Input can be a string or a {{variable}}.",
+          helpText: "Email address to be sent to Mailchimp. Can be a string or a {{variable}}.",
         },
       ],
     },

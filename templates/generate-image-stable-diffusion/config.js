@@ -1,5 +1,5 @@
 config = {
-  name: "Generate Image",
+  name: "Generate Image (Stable Diffusion)",
   description: "Use Stable Diffusion to generate an image and save the URL",
   author: 'sean t',
   blockStyle: {
