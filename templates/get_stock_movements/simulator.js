@@ -1,0 +1,5 @@
+environment = {
+  config: {
+    outputVar: 'text',
+  },
+}
