@@ -31,7 +31,7 @@ try {
       Authorization: `Bearer ${apiKey}`,
     },
     body: JSON.stringify({
-      use_target_image: true,
+      use_target_image: false,
     }),
   });
 
