@@ -71,9 +71,15 @@ try {
 }
 
 /**
+* Timeout 3 seconds
+*/
+await new Promise((res) => setTimeout(res, 3000));
+
+/**
  * Poll the image
  */
 let timesPolled = 0;
+let imageUrl = null;
 
 while (true) {
   try {
@@ -95,8 +101,7 @@ while (true) {
       console.log('failed!');
       break;
     } else if (state === 'completed') {
-      const responseUrl = response.result;
-      ai.vars[ai.config.outputVar] = responseUrl;
+      imageUrl = response.result;
       break;
     }
 
@@ -118,3 +123,13 @@ while (true) {
     break;
   }
 }
+
+if (!imageUrl) {
+  ai.crmLog('Image URL is required');
+  return;
+}
+
+/**
+ * Do we need to convert to base64??
+ */
+ai.vars[ai.config.outputVar] = imageUrl;
