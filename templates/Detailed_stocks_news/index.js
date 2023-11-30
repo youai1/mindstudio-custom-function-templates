@@ -1,12 +1,13 @@
 const sourceId = ai.getConfig('sourceId');
 const id = ai.getConfig('id');
+const rapidapi =  ai.getConfig('rapidapi');
 
 const url = `https://morning-star.p.rapidapi.com/news/get-details?sourceId=${sourceId}&id=${id}`;
 
 const options = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': 'd4bf753e5amsh66b7b07033cb646p1931d2jsn5f22292991c2',
+        'X-RapidAPI-Key': `${rapidapi}`,
         'X-RapidAPI-Host': 'morning-star.p.rapidapi.com'
     }
 };
@@ -28,7 +29,7 @@ try {
         }
     }
 
-    ai.vars[ai.config.outputVar] = concatenatedContent.trim();
+    ai.vars[ai.config.newsContent] = concatenatedContent.trim();
 } catch (error) {
     console.error(`Error fetching data: ${error}`);
 }
