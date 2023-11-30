@@ -4,7 +4,7 @@ config = {
   author:"Kevin L",
   configurationSections: [
     {
-      title: 'Custom Block',
+      title: 'All news',
       items: [
         {
           label: 'All news',
