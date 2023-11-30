@@ -131,10 +131,11 @@ if (!imageUrl) {
 
 /**
  * Download the image and upload to YouAI CDN
+ * 
+ * - Failing to download the image
  */
-const data = await fetch(imageUrl);
-const imageContent = await data.text();
+/*const data = await fetch(imageUrl);
+const imageContent = await data.arrayBuffer();
+const responseUrl = await ai.uploadFile(imageContent, 'image/jpeg');*/
 
-const responseUrl = await ai.uploadFile(imageContent, 'image/png', 'utf8');
-
-ai.vars[ai.config.outputVar] = responseUrl;
+ai.vars[ai.config.outputVar] = imageUrl;
