@@ -7,10 +7,10 @@ config = {
       title: 'Detailed Stocks News',
       items: [
         {
-          label: 'Output Variable',
+          label: 'News content',
           type: 'text',
-          variable: 'outputVar',
-          helpText: 'Save the generated image URL to this variable',
+          variable: 'newsContent',
+          helpText: 'The full news content',
         },
         {
           label: 'Label',
