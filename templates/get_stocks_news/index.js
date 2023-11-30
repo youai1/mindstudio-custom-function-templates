@@ -1,10 +1,11 @@
 const performanceID = ai.getConfig('performanceID');
 const url = `https://morning-star.p.rapidapi.com/news/list?performanceId=${performanceID}`; // Template literal used here
+const rapidapi =  ai.getConfig('rapidapi');
 
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': 'API_KEY',
+		'X-RapidAPI-Key': `${rapidapi}`,
 		'X-RapidAPI-Host': 'morning-star.p.rapidapi.com'
 	}
 };
