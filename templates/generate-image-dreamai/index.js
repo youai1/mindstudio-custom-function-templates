@@ -130,6 +130,11 @@ if (!imageUrl) {
 }
 
 /**
- * Do we need to convert to base64??
+ * Download the image and upload to YouAI CDN
  */
-ai.vars[ai.config.outputVar] = imageUrl;
+const data = await fetch(imageUrl);
+const imageContent = await data.text();
+
+const responseUrl = await ai.uploadFile(imageContent, 'image/png', 'utf8');
+
+ai.vars[ai.config.outputVar] = responseUrl;
