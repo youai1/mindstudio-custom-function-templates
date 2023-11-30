@@ -12,6 +12,12 @@ config = {
           variable: 'movers',
           helpText: 'List of all stocks movement of the day',
         },
+        {
+          label: 'rapidapi',
+          type: 'text',
+          variable: 'rapidapi',
+          helpText: 'provide your rapidapi key',
+        },
       ],
     },
   ],
