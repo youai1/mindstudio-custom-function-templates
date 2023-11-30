@@ -1,8 +1,9 @@
 const url = 'https://morning-star.p.rapidapi.com/market/v2/get-movers';
+const rapidapi =  ai.getConfig('rapidapi');
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': 'd4bf753e5amsh66b7b07033cb646p1931d2jsn5f22292991c2',
+		'X-RapidAPI-Key': `${rapidapi}`,
 		'X-RapidAPI-Host': 'morning-star.p.rapidapi.com'
 	}
 };
