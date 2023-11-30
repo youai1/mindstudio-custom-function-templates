@@ -13,6 +13,6 @@ const options = {
 
 const response = await fetch(url, options);
 const result = await response.text();
-ai.vars[ai.config.outputVar] = result
+ai.vars[ai.config.allNews] = result
 
 
