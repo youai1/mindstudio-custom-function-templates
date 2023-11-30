@@ -7,16 +7,22 @@ config = {
       title: 'Custom Block',
       items: [
         {
-          label: 'Output Variable',
+          label: 'All news',
           type: 'text',
-          variable: 'outputVar',
-          helpText: 'Save the generated image URL to this variable',
+          variable: 'allNews',
+          helpText: 'Store allNews related to a stock',
         },
         {
           label: 'Label',
           type: 'text',
           variable: 'performanceID',
           helpText: 'the stock ID',
+        },
+        {
+          label: 'rapidapi',
+          type: 'text',
+          variable: 'rapidapi',
+          helpText: 'provide your rapidapi tokapi key',
         },
       ],
     },
