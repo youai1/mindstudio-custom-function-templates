@@ -34,7 +34,7 @@ const request = await fetch(url, {
 const response = await request.json();
 
 // Upload the image
-const responseUrl = await ai.uploadFile(`data:image/png;base64,${response.artifacts[0].base64}`);
+const responseUrl = await ai.uploadFile(`${response.artifacts[0].base64}`, 'image/png', 'base64');
 
 // Set the URL as a variable
 ai.vars[ai.config.outputVar] = responseUrl;

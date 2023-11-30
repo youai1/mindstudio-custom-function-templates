@@ -38,7 +38,7 @@ try {
   const response = await request.json();
 
   // Upload the image
-  const responseUrl = await ai.uploadFile(`data:image/png;base64,${response.data[0].b64_json}`);
+  const responseUrl = await ai.uploadFile(`${response.data[0].b64_json}`, 'image/png', 'base64');
 
   // Set the URL as a variable
   ai.vars[ai.config.outputVar] = `${responseUrl}?w=1024`;
