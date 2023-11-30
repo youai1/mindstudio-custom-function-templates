@@ -1,4 +1,7 @@
 config = {
+  name: "GPT4-Vision",
+  description: "Use GPT4-Vision model from OpenAI",
+  author: "Kevin L",
   configurationSections: [
     {
       title: 'OpenAI Image Analysis',
