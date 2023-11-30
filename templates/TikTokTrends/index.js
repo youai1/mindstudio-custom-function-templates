@@ -45,9 +45,7 @@ try {
     }
 
     // Save to ai.vars.responseData as a JSON string
-    ai.vars.responseData = JSON.stringify({
-        printedResults
-    });
+    ai.vars[ai.config.responseData] = JSON.stringify({printedResults});
 } catch (error) {
     console.error(error);
 }
