@@ -43,7 +43,7 @@ if (response.ok) {
 
   const responseDataContent = responseData.choices[0].message.content;
   ai.vars.success = "done";
-  ai.vars.responseData = responseDataContent;
+  ai.vars[ai.config.responseData] = responseDataContent;
 
 } else {
   // There was an error with the request
