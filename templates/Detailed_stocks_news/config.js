@@ -13,6 +13,12 @@ config = {
           helpText: 'The full news content',
         },
         {
+          label: 'rapidapi',
+          type: 'text',
+          variable: 'rapidapi',
+          helpText: 'provide your rapidapi Api key',
+        },
+        {
           label: 'Label',
           type: 'text',
           variable: 'sourceId',
