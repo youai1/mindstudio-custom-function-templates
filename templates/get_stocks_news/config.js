@@ -22,7 +22,7 @@ config = {
           label: 'rapidapi',
           type: 'text',
           variable: 'rapidapi',
-          helpText: 'provide your rapidapi tokapi key',
+          helpText: 'provide your rapidapi key',
         },
       ],
     },
