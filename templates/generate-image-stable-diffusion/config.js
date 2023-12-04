@@ -3,7 +3,7 @@ config = {
   description: "Use Stable Diffusion to generate an image and save the URL",
   author: 'sean t',
   blockStyle: {
-    backgroundImageUrl: 'https://youai-cdn.s3.us-west-2.amazonaws.com/images/a47f3f3a-a1fa-41ca-8de3-e415452b4611_1699905529437.png',
+    backgroundImageUrl: 'https://youai.imgix.net/images/a47f3f3a-a1fa-41ca-8de3-e415452b4611_1699905529437.png',
     label: ' ',
     foregroundColor: 'white'
   },
