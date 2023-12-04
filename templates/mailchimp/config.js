@@ -2,6 +2,7 @@ config = {
   name: "Mailchimp - Collect Emails",
   description: "Collect emails for your Mailchimp mailing list.",
   author: "Marko",
+  tutorialUrl: "https://www.youtube.com/watch?v=giWd2rA_Yus",
   blockStyle: {
     backgroundImageUrl:
       "https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1700252678601.jpg",
