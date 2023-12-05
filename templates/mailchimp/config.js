@@ -5,9 +5,9 @@ config = {
   tutorialUrl: "https://www.youtube.com/watch?v=giWd2rA_Yus",
   blockStyle: {
     backgroundImageUrl:
-      "https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1700252678601.jpg",
+      "https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701763221447.jpg",
     foregroundColor: "#111111",
-    label: ".",
+    label: " ",
   },
   configurationSections: [
     {

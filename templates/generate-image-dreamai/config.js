@@ -3,7 +3,7 @@ config = {
   description: "Use DreamAi to generate an image and save the URL.",
   author: "Victor",
   blockStyle: {
-    backgroundImageUrl: 'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701084184194.png',
+    backgroundImageUrl: 'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701763143140.jpg',
     foregroundColor: '#ffffff',
     label: ' ',
   },
