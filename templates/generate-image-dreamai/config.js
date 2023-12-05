@@ -15,7 +15,7 @@ config = {
           label: 'DreamAI API Key',
           variable: 'dreamai_api_key',
           helpText: 'Your DreamAI API key.',
-          type: 'text',
+          type: 'secret',
         },
         {
           label: 'Image Style',

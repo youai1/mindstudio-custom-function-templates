@@ -15,7 +15,7 @@ config = {
           label: 'OpenAi API Key',
           variable: 'openai_api_key',
           helpText: 'Your OpenAi API key.',
-          type: 'text',
+          type: 'secret',
         },
         {
           label: 'Model (Optional)',

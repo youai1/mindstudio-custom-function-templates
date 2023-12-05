@@ -17,7 +17,7 @@ config = {
           label: "API Key",
           variable: "api_key",
           helpText: "You can find this in your account settings.",
-          type: "text",
+          type: "secret",
         },
         {
           label: "List ID",

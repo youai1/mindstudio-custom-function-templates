@@ -15,7 +15,7 @@ config = {
           label: 'Airtable API KEY',
           variable: 'airtable_api_key',
           helpText: 'API key from Airtable. ',
-          type: 'text',
+          type: 'secret',
         },
         {
           label: 'Airtable base id',

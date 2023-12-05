@@ -16,7 +16,7 @@ config = {
           label: 'Webhook Key',
           variable: 'ifttt_webhook_key',
           helpText: 'Webhook key provided by IFTTT',
-          type: 'text',
+          type: 'secret',
         },
         {
           label: 'Webhook Event Name',
