@@ -3,8 +3,8 @@ config = {
   description: "Fetch the availability schedules.",
   author: "Victor",
   blockStyle: {
-    backgroundImageUrl: 'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701705960604.png',
-    foregroundColor: '#000000',
+    backgroundImageUrl: 'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701762958237.jpg',
+    foregroundColor: '#366BFF',
     label: ' ',
   },
   configurationSections: [

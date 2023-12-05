@@ -3,8 +3,8 @@ config = {
   description: "Use DALL·E to generate an image and save the URL.",
   author: "Marko",
   blockStyle: {
-    backgroundImageUrl: 'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1700599537727.jpg',
-    foregroundColor: '#111111',
+    backgroundImageUrl: 'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701763041250.jpg',
+    foregroundColor: '#FFFFFF',
     label: ' ',
   },
   configurationSections: [

@@ -4,9 +4,9 @@ config = {
   author: 'Victor',
   blockStyle: {
     backgroundImageUrl:
-      'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1700587952107.png',
+      'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701763191532.jpg',
     foregroundColor: '#ffffff',
-    label: '.',
+    label: ' ',
   },
   configurationSections: [
     {

@@ -3,7 +3,7 @@ config = {
   description: "Send a Slack message through a webhook url",
   author: "Marko",
   blockStyle: {
-    backgroundImageUrl: 'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1700602923956.jpg',
+    backgroundImageUrl: 'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701763304441.jpg',
     foregroundColor: '#ffffff',
     label: ' ',
   },
