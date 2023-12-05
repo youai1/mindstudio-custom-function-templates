@@ -13,7 +13,7 @@ config = {
       items: [
         {
           label: 'API Key',
-          type: 'text',
+          type: 'secret',
           variable: 'apiKey',
           helpText: 'Generate your API key by visiting https://platform.stability.ai',
         },

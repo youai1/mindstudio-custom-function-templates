@@ -21,7 +21,7 @@ config = {
           label: 'Authorization',
           variable: 'authorization',
           helpText: 'Authorization to include in the header. Usually an API key.',
-          type: 'text',
+          type: 'secret',
         },
         {
           label: 'Output Variable',
