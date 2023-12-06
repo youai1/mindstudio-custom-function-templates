@@ -2,9 +2,11 @@ config = {
   name: "Make Webhook",
   description: "Send data to a Make webhook.",
   author: "Marko",
+  thumbnailUrl:
+    'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701861514359.jpg',
   blockStyle: {
     backgroundImageUrl:
-      "https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701763264531.jpg",
+      "https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701861466111.jpg",
     foregroundColor: "#000000",
     label: " ",
   },

@@ -3,9 +3,11 @@ config = {
   description: "Collect emails for your Mailchimp mailing list.",
   author: "Marko",
   tutorialUrl: "https://www.youtube.com/watch?v=giWd2rA_Yus",
+  thumbnailUrl:
+    'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701861432162.jpg',
   blockStyle: {
     backgroundImageUrl:
-      "https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701763221447.jpg",
+      "https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701861401626.jpg",
     foregroundColor: "#111111",
     label: " ",
   },
