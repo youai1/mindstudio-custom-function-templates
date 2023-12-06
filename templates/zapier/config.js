@@ -3,9 +3,11 @@ config = {
   description: "Send data to a Zapier webhook.",
   author: "Marko",
   tutorialUrl: "https://www.youtube.com/watch?v=b0La4G3HY1I",
+  thumbnailUrl:
+    'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701861786958.jpg',
   blockStyle: {
     backgroundImageUrl:
-      "https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701763381102.jpg",
+      "https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701861733735.jpg",
     foregroundColor: "#111111",
     label: " ",
   },

@@ -6,7 +6,7 @@ config = {
     'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701851940449.jpg',
   blockStyle: {
     backgroundImageUrl:
-      'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701763091727.jpg',
+      'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701861165885.jpg',
     foregroundColor: '#ffffff',
     label: ' ',
   },

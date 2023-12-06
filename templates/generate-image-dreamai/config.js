@@ -2,8 +2,10 @@ config = {
   name: "Generate Image (DreamAi)",
   description: "Use DreamAi to generate an image and save the URL.",
   author: "Victor",
+  thumbnailUrl:
+    'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701861255430.jpg',
   blockStyle: {
-    backgroundImageUrl: 'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701763143140.jpg',
+    backgroundImageUrl: 'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701861224834.jpg',
     foregroundColor: '#ffffff',
     label: ' ',
   },
