@@ -38,6 +38,10 @@ config = {
               label: 'All Occurances (Regex)',
               value: 'all_occurances_regex',
             },
+            {
+              label: 'Stop Words by comma',
+              value: 'stop_words',
+            },
           ],
         },
         {
