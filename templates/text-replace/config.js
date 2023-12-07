@@ -30,6 +30,14 @@ config = {
               label: 'All Occurances',
               value: 'all_occurances',
             },
+            {
+              label: 'Only First Occurance (Regex)',
+              value: 'first_occurance_regex',
+            },
+            {
+              label: 'All Occurances (Regex)',
+              value: 'all_occurances_regex',
+            },
           ],
         },
         {

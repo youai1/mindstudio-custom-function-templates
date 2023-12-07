@@ -13,4 +13,12 @@ if (operation === 'all_occurances') {
   transformed = text.replaceAll(pattern, replacement);
 }
 
+if (operation === 'first_occurance_regex') {
+  transformed = text.replace(new RegExp(pattern), replacement);
+}
+
+if (operation === 'all_occurances_regex') {
+  transformed = text.replaceAll(new RegExp(pattern), replacement);
+}
+
 ai.vars[ai.config.outputVar] = transformed;
