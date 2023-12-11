@@ -1,8 +1,8 @@
 const region =  ai.getConfig('region');
-const rapidapi =  ai.getConfig('rapidapi');
+const apiKey =  ai.getConfig('apiKey');
 
 // Check for valid API key and region
-if (!rapidapi || rapidapi.trim() === '') {
+if (!apiKey || apiKey.trim() === '') {
     console.error('Error: RapidAPI key is missing or invalid.');
     return;
 }
@@ -18,7 +18,7 @@ const baseUrl = `https://tokapi-mobile-version.p.rapidapi.com/v1/category?count=
 const options = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': `${rapidapi}`,
+        'X-RapidAPI-Key': `${apiKey}`,
         'X-RapidAPI-Host': 'tokapi-mobile-version.p.rapidapi.com'
     }
 };
@@ -59,7 +59,7 @@ try {
     }
 
     // Save to ai.vars.responseData as a JSON string
-    ai.vars[ai.config.responseData] = JSON.stringify({printedResults});
+    ai.vars[ai.config.OutputVariable] = JSON.stringify({printedResults});
 } catch (error) {
     console.error(`Error fetching data: ${error}`);
 }
