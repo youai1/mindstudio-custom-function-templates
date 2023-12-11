@@ -1,5 +1,5 @@
 config = {
-  name:"tiktoktrends",
+  name:"Tiktoktrends",
   description:"Get latest tiktok trends by region",
   author:"Kevin L",
   blockStyle: {
@@ -9,7 +9,7 @@ config = {
   },
   configurationSections: [
     {
-      title: 'tiktoktrends',
+      title: 'Tiktoktrends',
       items: [
         {
           label: 'Output Variable',
@@ -27,7 +27,7 @@ config = {
           label: 'Rapidapi ApiKey',
           type: 'text',
           variable: 'apiKey',
-          helpText: 'provide your rapidapi tokapi key',
+          helpText: 'Provide your rapidapi tokapi key',
         },
       ],
     },
