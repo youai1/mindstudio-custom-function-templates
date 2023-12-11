@@ -12,21 +12,21 @@ config = {
       title: 'tiktoktrends',
       items: [
         {
-          label: 'responseData',
+          label: 'Output Variable',
           type: 'text',
-          variable: 'responseData',
+          variable: 'OutputVariable',
           helpText: 'Save the trending hashtag on TikTok',
         },
         {
-          label: 'region',
+          label: 'Region',
           type: 'text',
-          variable: 'region',
+          variable: 'Region',
           helpText: 'Select your region of interested (eg. US)',
         },
         {
-          label: 'rapidapi',
+          label: 'Rapidapi ApiKey',
           type: 'text',
-          variable: 'rapidapi',
+          variable: 'ApiKey',
           helpText: 'provide your rapidapi tokapi key',
         },
       ],
