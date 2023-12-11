@@ -20,13 +20,13 @@ config = {
         {
           label: 'Region',
           type: 'text',
-          variable: 'Region',
+          variable: 'region',
           helpText: 'Select your region of interested (eg. US)',
         },
         {
           label: 'Rapidapi ApiKey',
           type: 'text',
-          variable: 'ApiKey',
+          variable: 'apiKey',
           helpText: 'provide your rapidapi tokapi key',
         },
       ],
