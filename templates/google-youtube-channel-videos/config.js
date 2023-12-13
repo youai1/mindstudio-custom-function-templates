@@ -1,6 +1,7 @@
 config = {
   name: 'Get YouTube Videos',
   description: 'Get videos from a YouTube Channel',
+  author: 'Marko',
   thumbnailUrl: '',
   blockStyle: {
     backgroundColor: '#007aff',
