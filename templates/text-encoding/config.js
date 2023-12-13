@@ -2,8 +2,10 @@ config = {
   name: 'Text Encode',
   description: 'Common text encoding operations',
   author: 'Victor',
+  thumbnailUrl:
+    'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1702485823414.png',
   blockStyle: {
-    backgroundColor: '#111111',
+    backgroundImageUrl: 'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1702485865759.png',
     foregroundColor: '#ffffff',
     label: 'Text Encode',
   },

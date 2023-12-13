@@ -2,6 +2,8 @@ config = {
   name: 'Text Validate',
   description: 'Common text validate operations',
   author: 'Victor',
+  thumbnailUrl:
+    'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1702485823414.png',
   blockStyle: {
     backgroundColor: '#111111',
     foregroundColor: '#ffffff',
