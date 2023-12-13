@@ -2,10 +2,12 @@ config = {
   name: "Fetch Request (GET)",
   description: "Perform a GET request to the provided url",
   author: "Marko",
+  thumbnailUrl: 'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1702454324594.png',
   blockStyle: {
-    backgroundColor: '#007aff',
+    backgroundImageUrl:
+      'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1702454278826.png',
     foregroundColor: '#ffffff',
-    label: 'GET Request',
+    label: ' ',
   },
   configurationSections: [
     {

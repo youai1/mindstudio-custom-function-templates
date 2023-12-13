@@ -2,10 +2,12 @@ config = {
   name: "Scrape URL",
   description: "Scrape a URL and save the resulting text to a variable.",
   author: 'Marko',
+  thumbnailUrl: 'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1702454101495.png',
   blockStyle: {
-    backgroundColor: '#007AFF',
-    foregroundColor: 'white',
-    label: 'Scrape URL',
+    backgroundImageUrl:
+      'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1702454163990.png',
+    foregroundColor: '#ffffff',
+    label: ' ',
   },
   configurationSections: [
     {

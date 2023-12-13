@@ -2,6 +2,13 @@ config = {
   name: "Airtable Integration",
   description: "Script to create a new record in an Airtable base",
   author: 'Kevin L',
+  thumbnailUrl: 'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1702454405412.png',
+  blockStyle: {
+    backgroundImageUrl:
+      'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1702454435200.png',
+    foregroundColor: '#000000',
+    label: ' ',
+  },
   configurationSections: [
     {
       title: 'Configuration',
