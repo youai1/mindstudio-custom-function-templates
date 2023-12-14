@@ -2,11 +2,11 @@ config = {
   name: 'Get Google Calendar Events',
   description: 'Get events from a public Google Calendar',
   author: 'Marko',
-  thumbnailUrl: '',
+  thumbnailUrl: 'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1702577012581.png',
   blockStyle: {
-    backgroundColor: '#007aff',
+    backgroundImageUrl: 'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1702577036256.png',
     foregroundColor: '#ffffff',
-    label: 'Get Google Calendar Events',
+    label: ' ',
   },
   configurationSections: [
     {

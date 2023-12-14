@@ -2,11 +2,11 @@ config = {
   name: 'Get YouTube Videos',
   description: 'Get videos from a YouTube Channel',
   author: 'Marko',
-  thumbnailUrl: '',
+  thumbnailUrl: 'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1702576938356.png',
   blockStyle: {
-    backgroundColor: '#007aff',
-    foregroundColor: '#ffffff',
-    label: 'Get YouTube Videos',
+    backgroundImageUrl: 'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1702576973575.png',
+    foregroundColor: '#111111',
+    label: ' ',
   },
   configurationSections: [
     {
