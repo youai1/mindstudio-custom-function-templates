@@ -1,13 +1,15 @@
 config = {
-  name: 'Custom Google Search',
+  name: 'Google Search - Custom',
   author: 'Marko',
   description:
     'Perform a Google Search with your Custom Search Engine and save the results to a variable',
-  thumbnailUrl: '',
+  thumbnailUrl:
+    'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1702454492491.png',
   blockStyle: {
-    backgroundColor: '#007aff',
-    foregroundColor: '#ffffff',
-    label: 'Custom Google Search',
+    backgroundImageUrl:
+      'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1702576480635.png',
+    foregroundColor: '#000000',
+    label: ' ',
   },
   configurationSections: [
     {
