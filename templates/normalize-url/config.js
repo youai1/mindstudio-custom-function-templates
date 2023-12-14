@@ -7,7 +7,7 @@ config = {
   blockStyle: {
     backgroundColor: '#007AFF',
     foregroundColor: '#ffffff',
-    label: ' ',
+    label: 'Normalize URL',
   },
   configurationSections: [
     {
