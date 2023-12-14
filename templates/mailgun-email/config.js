@@ -2,11 +2,11 @@ config = {
   name: 'Mailgun - Send Email',
   description: 'Send an email with Mailgun',
   author: 'Marko',
-  thumbnailUrl: '',
+  thumbnailUrl: 'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1702597577451.png',
   blockStyle: {
-    backgroundColor: '#007aff',
-    foregroundColor: '#ffffff',
-    label: 'Mailgun - Send Email',
+    backgroundImageUrl: 'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1702597594565.png',
+    foregroundColor: '#984043',
+    label: ' ',
   },
   configurationSections: [
     {
