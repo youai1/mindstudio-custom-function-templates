@@ -39,10 +39,10 @@ config = {
           variable: 'encoding_method',
           type: 'select',
           selectOptions: [
-            /*{
+            {
               label: 'Base64',
               value: 'base64',
-            },*/
+            },
             {
               label: 'Uniform Resource Identifier',
               value: 'uri',

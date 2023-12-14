@@ -11,4 +11,11 @@ if (method === 'uri') {
       : decodeURIComponent(text);
 }
 
+if (method === 'base64') {
+  transformed =
+    operation === 'encode'
+      ? btoa(text)
+      : atob(text);
+}
+
 ai.vars[ai.config.outputVar] = transformed;
