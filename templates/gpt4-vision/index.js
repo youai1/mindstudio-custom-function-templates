@@ -47,6 +47,8 @@ if (response.ok) {
 
 } else {
   // There was an error with the request
-  console.error("Error during POST request to OpenAI API:", await response.text());
+  responseDataContent = await response.text()
+  console.error("Error during POST request to OpenAI API:", responseDataContent);
   ai.vars.success = "failed";
+  ai.vars[ai.config.responseData] = responseDataContent;
 }
