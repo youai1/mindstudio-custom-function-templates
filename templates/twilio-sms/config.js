@@ -3,11 +3,11 @@ config = {
   description: 'Send SMS with Twilio',
   author: 'Victor',
   thumbnailUrl:
-    'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1702293554405.jpg',
+    'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1703609903923.jpg',
   blockStyle: {
-    backgroundColor: '#111111',
-    foregroundColor: '#ffffff',
-    label: 'Twilio SMS',
+    backgroundImageUrl: 'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1703609975739.jpg',
+    foregroundColor: '#111111',
+    label: ' ',
   },
   configurationSections: [
     {
@@ -44,4 +44,4 @@ config = {
       ],
     },
   ],
-}
+};
