@@ -1,11 +1,12 @@
 config = {
-  name: "Generate Image (DALL·E)",
-  description: "Use DALL·E to generate an image and save the URL.",
-  author: "Marko",
+  name: 'Generate Image (DALL·E)',
+  description: 'Use DALL·E to generate an image and save the URL.',
+  author: 'Marko',
   thumbnailUrl:
     'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701861132456.jpg',
   blockStyle: {
-    backgroundImageUrl: 'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701861089505.jpg',
+    backgroundImageUrl:
+      'https://youai.imgix.net/images/9e603bae-0732-4f04-8136-2eeec1f0a9fe_1701861089505.jpg',
     foregroundColor: '#FFFFFF',
     label: ' ',
   },
@@ -20,16 +21,27 @@ config = {
           type: 'secret',
         },
         {
-          label: 'Model (Optional)',
+          label: 'Output File Type',
           variable: 'model',
-          helpText: 'Dall E model to use. If left empty, dall-e-3 will be used.',
-          type: 'text',
+          type: 'select',
+          selectOptions: [
+            {
+              label: 'Dall·E 3',
+              value: 'dall-e-3',
+            },
+            {
+              label: 'Dall·E 2',
+              value: 'dall-e-2',
+            },
+          ],
+          helpText: 'DALL·E model to use. (Default: dall-e-3)',
         },
         {
           label: 'Prompt',
           variable: 'prompt',
           type: 'text',
-          helpText: 'Prompt to use for generating the image. Can be a string or a {{variable}}.',
+          helpText:
+            'Prompt to use for generating the image. Can be a string or a {{variable}}.',
         },
         {
           label: 'Output Variable',
