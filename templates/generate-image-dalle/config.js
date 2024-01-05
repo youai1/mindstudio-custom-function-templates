@@ -21,7 +21,7 @@ config = {
           type: 'secret',
         },
         {
-          label: 'Output File Type',
+          label: 'Model',
           variable: 'model',
           type: 'select',
           selectOptions: [
