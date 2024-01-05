@@ -26,7 +26,10 @@ if (!outputVar) {
 
 const resolveType = () => {
   if (fileType === 'csv') return 'text/csv';
+  if (fileType === 'json') return 'application/json';
   if (fileType === 'html') return 'text/html';
+  if (fileType === 'xml') return 'application/xml';
+  if (fileType === 'markdown') return 'text/markdown';
   return 'text/plain';
 };
 

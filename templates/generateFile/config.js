@@ -1,7 +1,7 @@
 config = {
   author: 'Marko',
   name: 'Generate File',
-  description: 'Generate text file from an input string.',
+  description: 'Generate CSV, JSON, HTML, XML, or Markdown files from an input string.',
   thumbnailUrl: '',
   blockStyle: {
     backgroundImageUrl: '',
@@ -41,6 +41,18 @@ config = {
             {
               label: 'HTML',
               value: 'html',
+            },
+            {
+              label: 'XML',
+              value: 'xml',
+            },
+            {
+              label: 'JSON',
+              value: 'json',
+            },
+            {
+              label: 'Markdown (.md)',
+              value: 'markdown',
             },
           ],
         },
