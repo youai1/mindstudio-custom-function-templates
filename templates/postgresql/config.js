@@ -1,6 +1,6 @@
 config = {
   name:"PostGreSQL",
-  description:"Talk to your postgresql database",
+  description:"Talk to your postgresql database, public endpoint at https://github.com/braincorporg/YouAIPostGre",
   author:"Kevin L",
   thumbnailUrl: 'https://youai-cdn.s3.us-west-2.amazonaws.com/images/d83bf0b7-ffc0-442f-a7a2-efb97a670708_1704705298924.png',
   blockStyle: {
