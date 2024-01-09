@@ -30,7 +30,7 @@ config = {
         {
           label: 'Events Output Variable',
           variable: 'eventsOutputVar',
-          helpText: 'Variable to assign the availability output to.',
+          helpText: 'Variable to assign the information about scheduled events to.',
           type: 'text',
         },
         {
