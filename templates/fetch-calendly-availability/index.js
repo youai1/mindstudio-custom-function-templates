@@ -3,6 +3,8 @@ const calendlyToken = ai.getConfig('calendly_token');
 const availabilityOutputVar =
   ai.getConfig('availabilityOutputVar') || 'calendlyAvailability';
 
+const eventsOutputVar = ai.getConfig('eventsOutputVar') || 'calendlyEvents';
+
 const schedulingOutputVar =
   ai.getConfig('schedulingOutputVar') || 'calendlySchedulingLink';
 
@@ -54,9 +56,34 @@ if (!currentUserUri || !schedulingLink) {
  * Fetch availability
  */
 let availability = '';
+let events = '';
 
 try {
-  const request = await fetch(
+  const now = new Date();
+
+  const endTime = new Date();
+  endTime.setDate(now.getDate() + 7);
+
+  const startTimeFormatted = now.toISOString();
+  const endTimeFormatted = endTime.toISOString();
+
+  const calendlyEventsUrl = `https://api.calendly.com/user_busy_times?user=${currentUserUri}&start_time=${encodeURIComponent(
+    startTimeFormatted,
+  )}&end_time=${encodeURIComponent(endTimeFormatted)}`;
+
+  const eventsRequest = await fetch(
+    useMockupUrls
+      ? `https://stoplight.io/mocks/calendly/api-docs/395/user_availability_schedules?user=${currentUserUri}`
+      : calendlyEventsUrl,
+    {
+      method: 'GET',
+      headers,
+    },
+  );
+
+  events = await eventsRequest.text();
+
+  const availabilityRequest = await fetch(
     useMockupUrls
       ? `https://stoplight.io/mocks/calendly/api-docs/395/user_availability_schedules?user=${currentUserUri}`
       : `https://api.calendly.com/user_availability_schedules?user=${currentUserUri}`,
@@ -66,7 +93,7 @@ try {
     },
   );
 
-  availability = await request.text();
+  availability = await availabilityRequest.text();
 } catch (err) {
   console.error(`Error during "FetchAvailability" request.`);
   console.log(err);
@@ -78,3 +105,4 @@ try {
  */
 ai.vars[schedulingOutputVar] = schedulingLink;
 ai.vars[availabilityOutputVar] = availability;
+ai.vars[eventsOutputVar] = events;

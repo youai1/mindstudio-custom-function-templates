@@ -4,5 +4,6 @@ environment = {
     calendly_token: '',
     availabilityOutputVar: 'availability',
     schedulingOutputVar: 'schedulingLink',
+    eventsOutputVar: 'events',
   },
 }
