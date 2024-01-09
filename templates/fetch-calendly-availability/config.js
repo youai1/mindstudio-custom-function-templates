@@ -28,6 +28,12 @@ config = {
           type: 'text',
         },
         {
+          label: 'Events Output Variable',
+          variable: 'eventsOutputVar',
+          helpText: 'Variable to assign the availability output to.',
+          type: 'text',
+        },
+        {
           label: 'Scheduling Link Output Variable',
           variable: 'schedulingOutputVar',
           helpText: 'Variable to assign the scheduling link output to.',
