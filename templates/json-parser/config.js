@@ -12,7 +12,7 @@ config = {
       title: 'Configuration',
       items: [
         {
-          label: 'Text',
+          label: 'JSON',
           variable: 'json_input',
           type: 'text',
           helpText: 'JSON to parse. Can be a string or a {{variable}}.',
@@ -21,7 +21,7 @@ config = {
           label: 'Property',
           variable: 'json_property',
           type: 'text',
-          helpText: 'You can use dot notation. Ex: person.contact.firstName',
+          helpText: 'You can use dot notation. Ex: name.first',
         },
         {
           label: 'Output Variable',
