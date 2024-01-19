@@ -25,11 +25,11 @@ const params = {
   page: '1',
 };
 
-if (colorFilter !== 'none') {
+if (colorFilter) {
   params['color'] = colorFilter;
 }
 
-if (orientationFilter !== 'none') {
+if (orientationFilter) {
   params['orientation'] = orientationFilter;
 }
 
