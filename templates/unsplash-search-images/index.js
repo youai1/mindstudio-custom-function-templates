@@ -63,10 +63,14 @@ if (data.total === 0) {
 /**
  * It's either an array of image URLs or a single image URL string
  */
-let urls = data.results.map((r) => r.urls.raw);
+let outputResult = '';
+
+const urls = data.results.map((r) => r.urls.raw);
 
 if (urls.length === 1) {
-  urls = urls[0];
+  outputResult = urls[0];
+} else {
+  outputResult = JSON.stringify(urls);
 }
 
-ai.vars[ai.config.outputVar] = urls;
+ai.vars[ai.config.outputVar] = outputResult;
