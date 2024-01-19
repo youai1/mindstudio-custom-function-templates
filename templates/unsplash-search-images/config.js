@@ -37,10 +37,6 @@ config = {
           type: 'select',
           selectOptions: [
             {
-              label: 'none',
-              value: 'none',
-            },
-            {
               label: 'black_and_white',
               value: 'black_and_white',
             },
@@ -92,10 +88,6 @@ config = {
           helpText: 'Optional. Filter by photo orientation.',
           type: 'select',
           selectOptions: [
-            {
-              label: 'none',
-              value: 'none',
-            },
             {
               label: 'landscape',
               value: 'landscape',
