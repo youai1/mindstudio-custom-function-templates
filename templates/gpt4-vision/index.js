@@ -10,7 +10,7 @@ const requestBody = JSON.stringify({
       content: [
         {
           type: "text",
-          text: "What’s in this image?"
+          text: ai.getConfig('instructions').toString()
         },
         {
           type: "image_url",
