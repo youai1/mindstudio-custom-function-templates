@@ -1,6 +1,7 @@
 const apiKey = ai.getConfig('apiKey');
 const imageUrl = ai.getConfig('imageUrl');
 const detectionType = ai.getConfig('detectionType') || 'IMAGE_PROPERTIES';
+const outputVar = ai.getConfig('outputVar');
 
 if (!apiKey) {
   const errorMessage = 'ERROR: No API key provided.';
