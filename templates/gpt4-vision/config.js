@@ -13,7 +13,7 @@ config = {
       items: [
         {
           label: 'OpenAI API Key',
-          type: 'text',
+          type: 'secret',
           variable: 'openai_api_key',
           helpText: 'Enter your OpenAI API key here',
         },
