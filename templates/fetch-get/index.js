@@ -3,15 +3,16 @@ const authorization = ai.getConfig('authorization');
 const outputVarName = ai.getConfig('outputVar') || 'output';
 
 if (!url) {
-  ai.crmLog("No url provided.");
-  ai.vars[outputVarName] = "No url provided.";
+  ai.crmLog('No url provided.');
+  ai.vars[outputVarName] = 'No url provided.';
+  return;
 }
 
 let authorizationObject = {};
 
 if (authorization) {
   authorizationObject = {
-    'Authorization': authorization,
+    Authorization: authorization,
   };
 }
 
@@ -36,7 +37,7 @@ if (request.ok) {
   ai.crmLog(`GET request result: ${result}`);
 } else {
   // There was an error with the request, log it and/or set an error flag
-  console.error(`Error during GET request to ${url}.`);
-  ai.vars[outputVarName] = `Error during GET request to ${url}.`;
+  ai.vars[
+    outputVarName
+  ] = `Error during GET request to ${url}.\n${JSON.stringify(response)}`;
 }
-

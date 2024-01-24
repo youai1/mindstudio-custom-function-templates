@@ -3,14 +3,14 @@ async function googleSearch(query, apiKey, cx) {
     query,
   )}`;
 
-  try {
-    const response = await fetch(url);
-    const data = await response.json();
-    return data.items; // Contains search results
-  } catch (error) {
-    console.error('Error during Google Search:', error);
+  const response = await fetch(url);
+  const data = await response.json();
+
+  if (data.error) {
+    ai.vars[outputVar] = JSON.stringify(data.error);
     return null;
   }
+  return data.items; // Contains search results
 }
 
 // ==== Config variables
@@ -36,12 +36,7 @@ if (!cx) {
 
 let data = await googleSearch(query, apiKey, cx);
 
-if (!data) {
-  const errorMessage = 'ERROR: Search results not found.';
-  console.error(errorMessage);
-  ai.vars[outputVar] = errorMessage;
-  return;
-}
+if (!data) return;
 
 // Delete some properties to lower token count
 data = data.map((item) => {
