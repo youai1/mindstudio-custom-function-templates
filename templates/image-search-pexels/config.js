@@ -2,11 +2,13 @@ config = {
   name: 'Image Search (Pexels)',
   description: 'Perform an image search using the Pexels API.',
   author: 'Marko',
-  thumbnailUrl: '',
+  thumbnailUrl:
+    'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1706290819584.png',
   blockStyle: {
-    backgroundColor: 'rgb(7, 160, 129)',
+    backgroundImageUrl:
+      'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1706290849202.png',
     foregroundColor: '#ffffff',
-    label: 'Image Search (Pexels)',
+    label: ' ',
   },
   configurationSections: [
     {
@@ -39,4 +41,4 @@ config = {
       ],
     },
   ],
-}
+};
