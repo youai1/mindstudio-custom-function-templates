@@ -2,10 +2,15 @@ const excelFileUrl = ai.getConfig('url_file');
 const pythonScript = ai.getConfig('python_script');
 console.log("Python Script:", pythonScript);
 
-const apiUrl = 'https://mindstudio-analysis.onrender.com/process_excel/';
-const cleanedPythonScript = pythonScript.replace(/```python|```/g, '').trim();
+// Regex to extract only the content within ```python ... ```
+const scriptRegex = /```python\s*([\s\S]*?)\s*```/;
+const scriptMatch = pythonScript.match(scriptRegex);
+const cleanedPythonScript = scriptMatch ? scriptMatch[1].trim() : '';
 
 console.log("Cleaned Python Script:", cleanedPythonScript);
+
+const apiUrl = 'https://mindstudio-analysis.onrender.com/process_excel/';
+
 
 // Prepare the request body
 const requestBody = JSON.stringify({
