@@ -2,7 +2,7 @@ ai.log('Generating image...');
 
 const headers = {
   'Content-Type': 'application/json',
-  'Authorization': `Bearer ${ai.config.apiKey}`, // Use the user's API key
+  'Authorization': `Bearer ${ai.getConfig('apiKey')}`, // Use the user's API key
 };
 
 const generationOptions = {
