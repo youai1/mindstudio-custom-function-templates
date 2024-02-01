@@ -1,8 +1,8 @@
 environment = {
-  userVariables: {
+  vars: {
     prompt: 'Cat riding a unicycle',
   },
-  configVariables: {
+  config: {
     apiKey: 'PASTE_YOUR_API_KEY',
     userPrompt: '{{prompt}}',
     outputVariable: 'imageUrl',
