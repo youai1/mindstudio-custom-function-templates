@@ -2,10 +2,13 @@ config = {
   name: 'Image Search (GettyImages)',
   description: 'Perform an image search using the GettyImages API.',
   author: 'Victor',
+  thumbnailUrl:
+    'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1706903779272.png',
   blockStyle: {
-    foregroundColor: '#111111',
+    backgroundImageUrl:
+      'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1706903767927.png',
     foregroundColor: '#ffffff',
-    label: 'GettyImages',
+    label: ' ',
   },
   configurationSections: [
     {
@@ -44,4 +47,4 @@ config = {
       ],
     },
   ],
-}
+};
