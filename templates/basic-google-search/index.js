@@ -25,6 +25,8 @@ if (!query) {
   return;
 }
 
+ai.log("Searching...");
+
 // Execute the search
 const result = await ai.searchGoogle(query);
 

@@ -26,6 +26,8 @@ const headers = {
 let currentUserUri = '';
 let schedulingLink = '';
 
+ai.log("Fetching availability...");
+
 try {
   const request = await fetch(
     useMockupUrls

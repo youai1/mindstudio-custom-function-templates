@@ -23,6 +23,8 @@ if (!apiKey) {
 
 let taskId = null;
 
+ai.log("Generating image...");
+
 try {
   const request = await fetch('https://api.luan.tools/api/tasks/', {
     method: 'POST',

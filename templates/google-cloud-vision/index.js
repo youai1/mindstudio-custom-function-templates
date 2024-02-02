@@ -44,6 +44,8 @@ const requestBody = {
   ],
 };
 
+ai.log("Analyzing image...");
+
 const response = await fetch(url, {
   method: 'POST',
   body: JSON.stringify(requestBody),

@@ -24,6 +24,8 @@ const data = {
 
 const url = `https://api.openai.com/v1/images/generations`;
 
+ai.log("Generating image...");
+
 try {
   // Make a POST request to the OpenAi API
   const request = await fetch(url, {

@@ -28,6 +28,8 @@ const request = await fetch(url, {
   headers: headers,
 });
 
+ai.log("Performing request...");
+
 const response = await request.json();
 
 if (request.ok) {

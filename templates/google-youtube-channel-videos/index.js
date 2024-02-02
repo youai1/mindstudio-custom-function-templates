@@ -46,6 +46,8 @@ if (!apiKey) {
   ai.vars[outputVar] = errorMessage;
 }
 
+ai.log("Fetching videos...");
+
 let data = await getYouTubeChannelVideos(channelId, apiKey);
 
 if (!data) {
