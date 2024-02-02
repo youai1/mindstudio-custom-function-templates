@@ -2,9 +2,9 @@ config = {
   name:"PostGreSQL",
   description:"Talk to your postgresql database, public endpoint at https://github.com/braincorporg/YouAIPostGre",
   author:"Kevin L",
-  thumbnailUrl: 'https://youai-cdn.s3.us-west-2.amazonaws.com/images/d83bf0b7-ffc0-442f-a7a2-efb97a670708_1704705298924.png',
+  thumbnailUrl: 'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1706904267377.png',
   blockStyle: {
-    backgroundImageUrl: 'https://youai-cdn.s3.us-west-2.amazonaws.com/images/d83bf0b7-ffc0-442f-a7a2-efb97a670708_1704705298924.png',
+    backgroundImageUrl: 'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1706904267377.png',
     foregroundColor: '#000000',
     label: ' ',
   },
