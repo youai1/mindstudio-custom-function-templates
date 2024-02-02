@@ -27,6 +27,8 @@ const requestBody = JSON.stringify({
 // Define the OpenAI API URL
 const apiUrl = 'https://api.openai.com/v1/chat/completions';
 
+ai.log("Analyzing image...");
+
 // Make a POST request to the OpenAI API
 const response = await fetch(apiUrl, {
   method: 'POST',

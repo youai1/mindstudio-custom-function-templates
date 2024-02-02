@@ -11,6 +11,8 @@ if (!webhookUrl) {
   return;
 }
 
+ai.log("Sending message...");
+
 // Make a POST request to the Discord webhook URL
 const request = await fetch(webhookUrl, {
   method: 'POST',

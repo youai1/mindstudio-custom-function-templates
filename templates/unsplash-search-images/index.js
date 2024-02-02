@@ -45,6 +45,8 @@ const headers = {
   Authorization: `Client-ID ${accessKey}`,
 };
 
+ai.log('Searching...');
+
 // Make a GET request to the provided url
 const request = await fetch(url, {
   method: 'GET',

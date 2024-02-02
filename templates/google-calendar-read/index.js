@@ -26,6 +26,8 @@ if (!apiKey) {
   ai.vars[outputVar] = errorMessage;
 }
 
+ai.log("Reading calendar...");
+
 let events = await getPublicCalendarEvents(calendarId, apiKey);
 
 if (!events) {

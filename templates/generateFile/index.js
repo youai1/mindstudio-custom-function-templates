@@ -33,6 +33,8 @@ const resolveType = () => {
   return 'text/plain';
 };
 
+ai.log('Generating file...');
+
 // Upload file and get the url
 try {
   const base64String = toBase64(input);

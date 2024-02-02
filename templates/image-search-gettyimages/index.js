@@ -18,6 +18,8 @@ try {
     'Content-Type': 'application/x-www-form-urlencoded',
   };
 
+  ai.log("Searching...");
+
   const request = await fetch(url, {
     method: 'POST',
     headers,

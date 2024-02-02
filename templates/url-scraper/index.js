@@ -1,6 +1,8 @@
 const url = ai.getConfig('url');
 const wordCount = ai.getConfig('word_count');
 
+ai.log('Fetching text...');
+
 const urlResult = await ai.scrapeUrl(url);
 const textResult = urlResult.text;
 

@@ -13,6 +13,8 @@ const data = {
 
 const url = "https://youai-postgre.onrender.com/query";
 
+ai.log("Querying...");
+
 // Make a POST request to your Flask application
 const request = await fetch(url, {
   method: 'POST',

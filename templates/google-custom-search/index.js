@@ -34,6 +34,8 @@ if (!cx) {
   return;
 }
 
+ai.log('Searching...');
+
 let data = await googleSearch(query, apiKey, cx);
 
 if (!data) return;

@@ -29,6 +29,8 @@ const headers = {
 
 const url = `https://api.pexels.com/v1/search?query=${query}&per_page=${parsedCount}`;
 
+ai.log("Searching...");
+
 // Make a GET request to the provided url
 const request = await fetch(url, {
   method: 'GET',
