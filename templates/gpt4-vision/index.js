@@ -42,13 +42,11 @@ if (response.ok) {
   const responseData = await response.json();
 
   const responseDataContent = responseData.choices[0].message.content;
-  ai.vars.success = "done";
   ai.vars[ai.config.responseData] = responseDataContent;
 
 } else {
   // There was an error with the request
   responseDataContent = await response.text()
   console.error("Error during POST request to OpenAI API:", responseDataContent);
-  ai.vars.success = "failed";
   ai.vars[ai.config.responseData] = responseDataContent;
 }
