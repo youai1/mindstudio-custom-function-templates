@@ -35,12 +35,6 @@ config = {
           variable: 'responseData',
           helpText: 'Variable to store the response data from OpenAI',
         },
-        {
-          label: 'Success Variable',
-          type: 'text',
-          variable: 'success',
-          helpText: 'Variable to indicate if the operation was successful',
-        },
       ],
     },
   ],
