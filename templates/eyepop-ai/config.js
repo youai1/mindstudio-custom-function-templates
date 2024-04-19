@@ -3,7 +3,8 @@ config = {
   name: 'Image Analysis (EyePop.ai)',
   description: 'Perform image analysis using the EyePop.ai API.',
   author: 'Andy',
-  thumbnailUrl: '',
+  thumbnailUrl:
+    'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1713540914654.png',
   blockStyle: {
     backgroundImageUrl: '',
     foregroundColor: '#ffffff',
@@ -41,4 +42,4 @@ config = {
       ],
     },
   ],
-}
+};
