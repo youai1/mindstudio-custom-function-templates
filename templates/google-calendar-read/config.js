@@ -5,7 +5,7 @@ config = {
   thumbnailUrl: 'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1702577012581.png',
   blockStyle: {
     backgroundImageUrl: 'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1702577036256.png',
-    foregroundColor: '#ffffff',
+    foregroundColor: '#111111',
     label: ' ',
   },
   configurationSections: [

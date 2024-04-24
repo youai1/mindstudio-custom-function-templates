@@ -7,7 +7,7 @@ config = {
   blockStyle: {
     backgroundImageUrl:
       'https://youai.imgix.net/images/a8284d01-9ec8-4683-a15d-7f4d7d922e5f_1706290882531.png',
-    foregroundColor: '#ffffff',
+    foregroundColor: '#111111',
     label: ' ',
   },
   configurationSections: [

@@ -4,7 +4,7 @@ config = {
   author:"Kevin L",
   blockStyle: {
     backgroundImageUrl: 'https://youai-cdn.s3.us-west-2.amazonaws.com/images/d83bf0b7-ffc0-442f-a7a2-efb97a670708_1702632143584.png',
-    foregroundColor: '#ffffff',
+    foregroundColor: '#111111',
     label: ' ',
   },
   configurationSections: [
