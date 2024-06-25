@@ -1,6 +1,6 @@
 config = {
   name: 'G2 Scraper',
-  description: 'Crawls your website, scrapes all content in the pages, and saves it as markdown in a file.',
+  description: 'Scrape reviews for a product on G2.',
   author: 'Giorgio',
   thumbnailUrl: 'https://i.ibb.co/yPL7ZGs/G2-reviews.png',
   blockStyle: {
