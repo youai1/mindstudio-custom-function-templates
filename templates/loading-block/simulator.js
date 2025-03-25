@@ -1,5 +1,0 @@
-environment = {
-  config: {
-    message: 'Loading...'
-  },
-}
