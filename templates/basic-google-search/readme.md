@@ -1,3 +1,3 @@
 # Google Search
 
-Basic Google Search using custom functions.
+Basic Google Search using custom function.
